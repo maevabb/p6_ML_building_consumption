@@ -1,0 +1,19 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+# Ignore Poetry virtual environment
+.poetry/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore environment-specific files
+.env
+.envrc
+# Ignore MLflow logs and artifacts
+mlruns/
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+# Ignore large files like raw data, models, or other binary files
+data/
+models/
