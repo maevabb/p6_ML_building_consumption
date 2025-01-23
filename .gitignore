@@ -11,6 +11,7 @@ __pycache__/
 .envrc
 # Ignore MLflow logs and artifacts
 mlruns/
+mlartifacts/
 # Ignore system-specific files
 .DS_Store
 Thumbs.db

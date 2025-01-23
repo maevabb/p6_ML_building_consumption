@@ -1,0 +1,47 @@
+nom_colonne,selection,commentaires,description
+OSEBuildingID,non,donnee identifiante,Identifiant
+DataYear,non,une seule valeur,Année de la donnée
+BuildingType,,,Catégorie de batiment
+PrimaryPropertyType,,,Type principal de propriété
+PropertyName,non,donnee identifiante,Nom de la propriété
+Address,non,donnee identifiante,Adresse
+City,non,une seule valeur,Ville
+State,non,une seule valeur,Etat
+ZipCode,,,Code postal
+TaxParcelIdentificationNumber,non,donnee identifiante,Identifiant la parcelle pour taxes
+CouncilDistrictCode,,,Code du district
+Neighborhood,,,Quartier
+Latitude,non,donnee identifiante,Latitude
+Longitude,non,donnee identifiante,Longitude
+YearBuilt,,,Année de construction
+NumberofBuildings,,,Nombre de bâtiments
+NumberofFloors,,,Nombre d'étages
+PropertyGFATotal,,,Surface totale
+PropertyGFAParking,,,Surface de stationnement
+PropertyGFABuilding(s),,,Surface du bâtiment
+ListOfAllPropertyUseTypes,,,Liste des types d'utilisation de la propriété
+LargestPropertyUseType,,,Utilisation principale
+LargestPropertyUseTypeGFA,,,Surface de l'utilisation principale
+SecondLargestPropertyUseType,non,trop peu de donnees,Utilisation secondaire
+SecondLargestPropertyUseTypeGFA,non,trop peu de donnees,Surface de l'utilisation secondaire
+ThirdLargestPropertyUseType,non,trop peu de donnees,Utilisation tertiaire
+ThirdLargestPropertyUseTypeGFA,non,trop peu de donnees,Surface de la troisième utilisation
+YearsENERGYSTARCertified,non,trop peu de donnees,Nombre d'années certifié ENERGY STAR
+ENERGYSTARScore,non,trop peu de donnees,Score ENERGY STAR
+SiteEUI(kBtu/sf),oui,cible,Intensité d'utilisation énergétique sur site par surface
+SiteEUIWN(kBtu/sf),,,Intensité d'utilisation énergétique sur site par surface - conditions climatiques
+SourceEUI(kBtu/sf),,,Intensité d'utilisation énergétique à la source par surface
+SourceEUIWN(kBtu/sf),,,Intensité d'utilisation énergétique à la source par surface - conditions climatiques
+SiteEnergyUse(kBtu),,,Consommation énergétique totale sur site
+SiteEnergyUseWN(kBtu),,,Consommation énergétique totale sur site - conditions climatiques
+SteamUse(kBtu),,,Consommation de vapeur (en kBtu)
+Electricity(kWh),,,Consommation d'électricité (en kWh)
+Electricity(kBtu),,,Consommation d'électricité (en kBtu)
+NaturalGas(therms),,,Consommation de gaz naturel (en therms)
+NaturalGas(kBtu),,,Consommation de gaz naturel (en kBtu)
+DefaultData,,,Indicateur valeurs par défaut ou estimations
+Comments,non,colonne vide,Commentaires
+ComplianceStatus,,,Statut de conformité réglementaire ou environnementale du bâtiment
+Outlier,,,Outliers repérés
+TotalGHGEmissions,,,Émissions totales de gaz à effet de serre
+GHGEmissionsIntensity,,,Intensité des émissions de gaz à effet de serre
