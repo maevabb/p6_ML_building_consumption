@@ -1,0 +1,13 @@
+service: 'service:EnergyPrediction'
+labels:
+  owner: "Seattle_city_team"
+  project: "building_energy_prediction"
+
+include:
+  - 'service.py'
+  - 'requirements.txt'
+  - onehotencoder.pkl
+
+python:
+  requirements_txt: "requirements.txt"
+
