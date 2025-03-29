@@ -119,7 +119,7 @@ bentoml serve service:EnergyPrediction
 ├── bentofile.yaml                             # Configuration de BentoML
 ├── service.py                                 # Service BentoML (exposition de l'API)
 ├── onehotencoder.pkl                          # Encoder OneHot sauvegardé
-├── support_presentation_projet.pptx           # Support PowerPoint de présentation
+├── presentation.pptx                          # Support PowerPoint de présentation
 ├── Notebook/                                  # Dossier de travail (scripts, données, notebooks)
 │   ├── exploration_donees.ipynb               # Analyse exploratoire
 │   ├── modelisation_supervisee.ipynb          # Feature engineering & modélisation ML
@@ -127,7 +127,7 @@ bentoml serve service:EnergyPrediction
 │   ├── 2016_Building_Energy_Benchmarking.csv  # Jeu de données brut
 │   ├── building_consumption_analized.csv      # Données nettoyées et filtrées
 │   └── building_consumption_columns_tracking.csv  # Suivi des colonnes sélectionnées
-
+```
 
 ## 🛠️ Stack technique
 - **Python 3.10+**
