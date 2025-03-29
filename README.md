@@ -120,7 +120,7 @@ bentoml serve service:EnergyPrediction
 ├── service.py                                 # Service BentoML (exposition de l'API)
 ├── onehotencoder.pkl                          # Encoder OneHot sauvegardé
 ├── presentation.pptx                          # Support PowerPoint de présentation
-├── Notebook/                                  # Dossier de travail (scripts, données, notebooks)
+├── Notebooks/                                  # Dossier de travail (scripts, données, notebooks)
 │   ├── exploration_donees.ipynb               # Analyse exploratoire
 │   ├── modelisation_supervisee.ipynb          # Feature engineering & modélisation ML
 │   ├── my_functions.py                        # Fonctions utilitaires personnalisées
