@@ -1,0 +1,47 @@
+nom_colonne,selection,commentaires,description
+OSEBuildingID,non,donnee identifiante,Identifiant
+DataYear,non,une seule valeur,Année de la donnée
+BuildingType,non,donnee traitee,Catégorie de batiment
+PrimaryPropertyType,oui,,Type principal de propriété
+PropertyName,non,donnee identifiante,Nom de la propriété
+Address,non,donnee identifiante,Adresse
+City,non,une seule valeur,Ville
+State,non,une seule valeur,Etat
+ZipCode,non,trop spécifique,Code postal
+TaxParcelIdentificationNumber,non,donnee identifiante,Identifiant la parcelle pour taxes
+CouncilDistrictCode,non,trop spécifique,Code du district
+Neighborhood,oui,,Quartier
+Latitude,non,donnee identifiante,Latitude
+Longitude,non,donnee identifiante,Longitude
+YearBuilt,oui,pour new feature,Année de construction
+NumberofBuildings,oui,,Nombre de bâtiments
+NumberofFloors,oui,,Nombre d'étages
+PropertyGFATotal,oui,,Surface totale
+PropertyGFAParking,oui,pour new feature,Surface de stationnement
+PropertyGFABuilding(s),,,Surface du bâtiment
+ListOfAllPropertyUseTypes,non,trop spécifique,Liste des types d'utilisation de la propriété
+LargestPropertyUseType,oui,pour new feature,Utilisation principale
+LargestPropertyUseTypeGFA,non,trop spécifique,Surface de l'utilisation principale
+SecondLargestPropertyUseType,oui,pour new feature,Utilisation secondaire
+SecondLargestPropertyUseTypeGFA,non,trop peu de donnees,Surface de l'utilisation secondaire
+ThirdLargestPropertyUseType,non,trop peu de donnees,Utilisation tertiaire
+ThirdLargestPropertyUseTypeGFA,non,trop peu de donnees,Surface de la troisième utilisation
+YearsENERGYSTARCertified,non,trop peu de donnees,Nombre d'années certifié ENERGY STAR
+ENERGYSTARScore,non,trop peu de donnees,Score ENERGY STAR
+SiteEUI(kBtu/sf),oui,cible,Intensité d'utilisation énergétique sur site par surface
+SiteEUIWN(kBtu/sf),non,data leak,Intensité d'utilisation énergétique sur site par surface - conditions climatiques
+SourceEUI(kBtu/sf),non,data leak,Intensité d'utilisation énergétique à la source par surface
+SourceEUIWN(kBtu/sf),non,data leak,Intensité d'utilisation énergétique à la source par surface - conditions climatiques
+SiteEnergyUse(kBtu),non,data leak,Consommation énergétique totale sur site
+SiteEnergyUseWN(kBtu),non,data leak,Consommation énergétique totale sur site - conditions climatiques
+SteamUse(kBtu),non,data leak,Consommation de vapeur (en kBtu)
+Electricity(kWh),non,data leak,Consommation d'électricité (en kWh)
+Electricity(kBtu),oui,pour new feature,Consommation d'électricité (en kBtu)
+NaturalGas(therms),non,data leak,Consommation de gaz naturel (en therms)
+NaturalGas(kBtu),oui,pour new feature,Consommation de gaz naturel (en kBtu)
+DefaultData,non,donnee traitee,Indicateur valeurs par défaut ou estimations
+Comments,non,colonne vide,Commentaires
+ComplianceStatus,non,donnee traitee,Conformité
+Outlier,non,donnee traitee,Outliers repérés
+TotalGHGEmissions,non,data leak,Émissions totales de gaz à effet de serre
+GHGEmissionsIntensity,non,data leak,Intensité des émissions de gaz à effet de serre
